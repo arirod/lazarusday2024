@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="easylunchtest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="19"/>
+        <CursorPos X="34" Y="40"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../src/easylunchtestcase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="196"/>
+        <CursorPos X="42" Y="219"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../src/services/model.connections.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8"/>
+        <CursorPos Y="56"/>
+        <UsageCount Value="24"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../src/services/services.ingredients.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="26"/>
+        <UsageCount Value="24"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../src/services/services.recipes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="3" Y="12"/>
+        <UsageCount Value="24"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../src/entities/entity.ingredients.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="24"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../src/entities/entity.recipes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="24"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../3rd_party/fptest/src/TestFramework.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2697"/>
+        <CursorPos Y="2705"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="../src/easylunchtestcase.pas"/>
+        <Caret Line="152" TopLine="139"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/easylunchtestcase.pas"/>
+        <Caret Line="153" TopLine="139"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/easylunchtestcase.pas"/>
+        <Caret Line="154" TopLine="139"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/easylunchtestcase.pas"/>
+        <Caret Line="184" TopLine="175"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/easylunchtestcase.pas"/>
+        <Caret Line="185" TopLine="175"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/easylunchtestcase.pas"/>
+        <Caret Line="187" TopLine="175"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/easylunchtestcase.pas"/>
+        <Caret Line="188" TopLine="175"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/easylunchtestcase.pas"/>
+        <Caret Line="189" TopLine="175"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/easylunchtestcase.pas"/>
+        <Caret Line="164" Column="4" TopLine="152"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

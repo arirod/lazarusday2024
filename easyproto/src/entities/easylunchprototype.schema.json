@@ -1,0 +1,175 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default":
+    {},
+    "title": "Root Schema",
+    "required": [
+        "recipes"
+    ],
+    "properties":
+    {
+        "recipes":
+        {
+            "type": "array",
+            "default": [],
+            "title": "The recipes Schema",
+            "items":
+            {
+                "type": "object",
+                "title": "A Schema",
+                "required": [
+                    "title",
+                    "ingredients"
+                ],
+                "properties":
+                {
+                    "title":
+                    {
+                        "type": "string",
+                        "title": "The title Schema",
+                        "examples": [
+                            "Ham and Cheese Toastie",
+                            "Fry-up",
+                            "Hotdog"
+                        ]
+                    },
+                    "ingredients":
+                    {
+                        "type": "array",
+                        "title": "The ingredients Schema",
+                        "items":
+                        {
+                            "type": "string",
+                            "title": "A Schema",
+                            "examples": [
+                                "Ham",
+                                "Cheese",
+                                "Bread",
+                                "Butter",
+                                "Bacon",
+                                "Eggs",
+                                "Mushrooms",
+                                "Sausage",
+                                "Hotdog Bun",
+                                "Ketchup",
+                                "Mustard"
+                            ]
+                        },
+                        "examples": [
+                            ["Ham",
+                                "Cheese",
+                                "Bread",
+                                "Butter"
+                            ],
+                            ["Bacon",
+                                "Eggs",
+                                "Mushrooms",
+                                "Sausage",
+                                "Bread"
+                            ],
+                            ["Hotdog Bun",
+                                "Sausage",
+                                "Ketchup",
+                                "Mustard"
+                            ]
+                        ]
+                    }
+                },
+                "examples": [
+                {
+                    "title": "Ham and Cheese Toastie",
+                    "ingredients": [
+                        "Ham",
+                        "Cheese",
+                        "Bread",
+                        "Butter"
+                    ]
+                },
+                {
+                    "title": "Fry-up",
+                    "ingredients": [
+                        "Bacon",
+                        "Eggs",
+                        "Mushrooms",
+                        "Sausage",
+                        "Bread"
+                    ]
+                },
+                {
+                    "title": "Hotdog",
+                    "ingredients": [
+                        "Hotdog Bun",
+                        "Sausage",
+                        "Ketchup",
+                        "Mustard"
+                    ]
+                }]
+            },
+            "examples": [
+                [
+                {
+                    "title": "Ham and Cheese Toastie",
+                    "ingredients": [
+                        "Ham",
+                        "Cheese",
+                        "Bread",
+                        "Butter"
+                    ]
+                },
+                {
+                    "title": "Fry-up",
+                    "ingredients": [
+                        "Bacon",
+                        "Eggs",
+                        "Mushrooms",
+                        "Sausage",
+                        "Bread"
+                    ]
+                },
+                {
+                    "title": "Hotdog",
+                    "ingredients": [
+                        "Hotdog Bun",
+                        "Sausage",
+                        "Ketchup",
+                        "Mustard"
+                    ]
+                }]
+            ]
+        }
+    },
+    "examples": [
+    {
+        "recipes": [
+        {
+            "title": "Ham and Cheese Toastie",
+            "ingredients": [
+                "Ham",
+                "Cheese",
+                "Bread",
+                "Butter"
+            ]
+        },
+        {
+            "title": "Fry-up",
+            "ingredients": [
+                "Bacon",
+                "Eggs",
+                "Mushrooms",
+                "Sausage",
+                "Bread"
+            ]
+        },
+        {
+            "title": "Hotdog",
+            "ingredients": [
+                "Hotdog Bun",
+                "Sausage",
+                "Ketchup",
+                "Mustard"
+            ]
+        }]
+    }]
+}
